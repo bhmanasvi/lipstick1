@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Hand Gesture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <center>
+    <h1 class="btn btn-danger">Web Gesture App </center>
+   <center> <span class="btn btn-info">&#9996;</span>
+    <span class="btn btn-warning">&#128076;</span>
+    <span class="btn btn-success">&#128077;</span> 
+    <br>
+    <br>
+    <br>
+    <h3 class="warning">Note: If it does not get loaded try refreshing the page.</h3>
+    </center> 
+  </h1>
+
+<div class="col-md-4 col-sm-12 col-xs-12">
+    <label>Webcam View - </label>
+    <div id="camera"></div>
+    <br><br>
+    <button class="btn btn-success" onclick="take()">Take Snapshot</button>
+  </div>
+  <div class="col-md-4 col-sm-12 col-xs-12">
+    <br>
+    <br>
+    <label>Prediction </label>
+    <p id="gesture"></p>
+  </div>
+  <div class="col-md-4 col-sm-12 col-xs-12">
+      <label>Snapshot - </label>
+    <div id="result"></div>
+    <br><br>
+    <button class="btn btn-primary" onclick="check()">Check</button>
+    <br><br>
+
+  </div>
+
+</center>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
+

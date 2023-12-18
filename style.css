@@ -1,0 +1,43 @@
+body
+{
+  color: white;
+  background: rgb(231, 51, 219);
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+#emotionname, #emotionname2
+{
+  font-size: 25px;
+}
+#emoji, #emoji2
+{
+  font-size:25px;
+}
+
+label{
+
+  font-size: 25px;
+}
+
+.heading
+{
+  font-size: 28px;
+}
+
+h1
+{
+  font-size: 30px;
+  font: 30px;
+}
